@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>areaOfTriangle</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Calculate Area of Triangle</h1>
+        <label for="triangle-base">Base:</label>
+        <input type="number" id="triangle-base" name="triangle-base" required><br>
+        <label for="triangle-height">Height:</label>
+        <input type="number" id="triangle-height" name="triangle-height" required><br>
+        <button onclick="calculateTriangleArea()">Calculate</button>
+        <p id="triangle-area"></p>
+    </div>
+
     <script src="script/code.js"></script>
 </body>
 </html>
